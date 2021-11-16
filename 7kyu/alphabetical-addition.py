@@ -6,6 +6,6 @@ def add_letters(*letters):
         count += ord(num)-96
     if count < 27:
         return chr(count+96)
-    while count >= 27:
+    while count > 26:
         count -= 26
     return chr(count+96)
